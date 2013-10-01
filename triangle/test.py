@@ -190,4 +190,5 @@ class testTriangle(unittest.TestCase):
     def testDetect_triangle183(self):
         self.assertEqual('khong phai la tam giac',detect_triangle(4.0*(10**31),0.000001,9.0*(10**31)))
     
+    
 unittest.main()
